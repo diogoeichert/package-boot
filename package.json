@@ -1,6 +1,6 @@
 {
   "name": "package-boot",
-  "version": "1.6.8",
+  "version": "1.6.9",
   "description": "npm module capable of creating npm modules",
   "main": "index.js",
   "scripts": {

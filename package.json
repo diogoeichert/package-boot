@@ -1,36 +1,36 @@
 {
-  "name": "package-boot",
-  "version": "1.6.9",
-  "description": "npm module capable of creating npm modules",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint --fix . && node test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/diogoeichert/package-boot.git"
-  },
-  "keywords": [
-    "boot",
-    "create",
-    "init",
-    "module",
-    "npm",
-    "package"
-  ],
-  "author": "Diogo Eichert",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/diogoeichert/package-boot/issues"
-  },
-  "homepage": "https://github.com/diogoeichert/package-boot#readme",
-  "dependencies": {
-    "clonefolder": "^1.1.7",
-    "deltree": "^1.2.4",
-    "join-assign": "^1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^7.19.0",
-    "eslint-config-classic": "^0.1.0"
-  }
+	"name": "package-boot",
+	"version": "1.6.9",
+	"description": "npm module capable of creating npm modules",
+	"main": "index.js",
+	"scripts": {
+		"test": "eslint --fix . && node test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/diogoeichert/package-boot.git"
+	},
+	"keywords": [
+		"boot",
+		"create",
+		"init",
+		"module",
+		"npm",
+		"package"
+	],
+	"author": "Diogo Eichert",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/diogoeichert/package-boot/issues"
+	},
+	"homepage": "https://github.com/diogoeichert/package-boot#readme",
+	"dependencies": {
+		"clonefolder": "^1.1.7",
+		"deltree": "^1.2.4",
+		"join-assign": "^1.1.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.19.0",
+		"eslint-config-classic": "^0.1.0"
+	}
 }

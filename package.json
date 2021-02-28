@@ -4,6 +4,7 @@
 	"description": "npm module capable of creating npm modules",
 	"main": "index.js",
 	"scripts": {
+		"prepublishOnly": "git checkout main && git pull --rebase && npm test && git push",
 		"test": "eslint --fix . && node test.js"
 	},
 	"repository": {
